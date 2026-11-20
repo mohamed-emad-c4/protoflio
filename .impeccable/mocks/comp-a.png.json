@@ -1,0 +1,6 @@
+{
+  "prompt": "Desktop website first-viewport UI design mockup, 1440x810, flat screen render, no device frame. Software engineer portfolio built around an exploded isometric cross-section of a product stack. Light cool-grey background, deep navy ink, one electric blue accent. Left: headline 'Mohamed Emad' and subhead 'Software Engineer. I build products end to end.' with buttons 'View projects' and 'Download CV'. Right: a large precise isometric exploded diagram of four stacked translucent layers labeled 'PostgreSQL + PostGIS', 'Node.js / Laravel API', 'React dashboard', 'Flutter app', with thin leader lines and small labels 'JWT · RBAC', 'Socket.IO', 'Google Play'. Top nav: Work, Skills, Experience, Contact. Clean technical-drawing feel, legible text, modern SaaS polish.",
+  "model": "gpt_image_2",
+  "approved": true,
+  "role": "hero"
+}

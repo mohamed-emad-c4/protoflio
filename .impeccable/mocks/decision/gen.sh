@@ -1,0 +1,1 @@
+gen() { higgsfield generate create gpt_image_2 --prompt "$2" --aspect_ratio 16:9 --resolution 1k --wait > "$1.out" 2>&1; url=$(grep -oE 'https://[^ ]+\.png' "$1.out" | head -1); if [ -n "$url" ]; then curl -s -o "$1.png" "$url"; echo "$1 ok"; else echo "$1 FAIL: $(tail -2 $1.out)"; fi; }

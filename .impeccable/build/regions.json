@@ -1,0 +1,19 @@
+{ "regions": [
+  { "id": "nav-mark", "kind": "chrome", "grid": "A0:A0", "note": "blue double-slash monogram mark with navy dot" },
+  { "id": "nav-links", "kind": "text", "grid": "G0:J0", "note": "nav links Work, Skills, Experience, Contact in navy medium sans" },
+  { "id": "headline", "kind": "text", "grid": "A3:E3", "note": "huge bold geometric sans headline 'Mohamed Emad' in deep navy" },
+  { "id": "accent-rule", "kind": "chrome", "grid": "A4:A4", "note": "short electric blue underline rule under headline" },
+  { "id": "subhead", "kind": "text", "grid": "A5:D5", "note": "two-line subhead 'Software Engineer. I build products end to end.' slate navy regular" },
+  { "id": "cta-primary", "kind": "control", "grid": "A6:B6", "note": "solid electric blue button 'View projects' with arrow" },
+  { "id": "cta-secondary", "kind": "control", "grid": "C6:D6", "note": "outlined navy button 'Download CV' with download icon" },
+  { "id": "dot-field", "kind": "chrome", "grid": "A7:B8", "codeDrawn": true, "note": "faint CSS radial-gradient dot pattern at lower left" },
+  { "id": "tech-icons", "kind": "chrome", "grid": "A9:D9", "note": "row of outline tech logo icons: JS, React, Node, Laravel, PostgreSQL, Flutter, Socket" },
+  { "id": "stack-plate", "kind": "plate", "grid": "F1:I9", "bleed": true, "note": "exploded isometric stack of four translucent glass layers: database cylinder with elephant on top layer, JS and Laravel blocks on green API layer, dashboard UI on third layer, phone on bottom violet layer, dashed vertical guides and leader lines" },
+  { "id": "label-db", "kind": "text", "grid": "I2:J2", "note": "label 'PostgreSQL + PostGIS' with dot" },
+  { "id": "label-api", "kind": "text", "grid": "I4:J4", "note": "label 'Node.js / Laravel API' with dot" },
+  { "id": "label-dash", "kind": "text", "grid": "I6:J6", "note": "label 'React dashboard' with dot" },
+  { "id": "label-mobile", "kind": "text", "grid": "I8:J8", "note": "label 'Flutter app' with dot" },
+  { "id": "tag-jwt", "kind": "text", "grid": "E4:F4", "note": "small left label 'JWT · RBAC'" },
+  { "id": "tag-socket", "kind": "text", "grid": "E6:F6", "note": "small left label 'Socket.IO'" },
+  { "id": "tag-play", "kind": "text", "grid": "E8:F8", "note": "small left label 'Google Play'" }
+] }

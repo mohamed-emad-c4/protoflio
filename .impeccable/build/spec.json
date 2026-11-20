@@ -1,0 +1,1130 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-11-20T08:26:54.927Z",
+  "comp": ".impeccable/mocks/comp-a.png",
+  "warnings": [
+    "region dot-field: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region stack-plate: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)"
+  ],
+  "uncoveredInkCells": [
+    "B4",
+    "C4"
+  ],
+  "compSize": {
+    "width": 1344,
+    "height": 752
+  },
+  "aspect": 1.7872,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#f2f6f7",
+      "coverage": 0.9258
+    },
+    {
+      "hex": "#ced7f6",
+      "coverage": 0.0447
+    },
+    {
+      "hex": "#09153b",
+      "coverage": 0.0148
+    },
+    {
+      "hex": "#0858f8",
+      "coverage": 0.0095
+    },
+    {
+      "hex": "#273759",
+      "coverage": 0.0052
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.3472,
+      "strength": 0.5355
+    },
+    {
+      "y": 0.4028,
+      "strength": 0.4703
+    },
+    {
+      "y": 0.6111,
+      "strength": 0.3302
+    },
+    {
+      "y": 0.6944,
+      "strength": 0.3371
+    }
+  ],
+  "regions": [
+    {
+      "id": "nav-mark",
+      "kind": "chrome",
+      "note": "blue double-slash monogram mark with navy dot",
+      "grid": "A0:A0",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 0.1,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 134,
+        "h": 75
+      },
+      "aspect": 1.7867,
+      "palette": [
+        {
+          "hex": "#f1f7f8",
+          "coverage": 0.9767
+        },
+        {
+          "hex": "#082177",
+          "coverage": 0.0099
+        },
+        {
+          "hex": "#083fda",
+          "coverage": 0.0081
+        },
+        {
+          "hex": "#63738d",
+          "coverage": 0.0027
+        },
+        {
+          "hex": "#7893d3",
+          "coverage": 0.0027
+        }
+      ],
+      "detail": {
+        "energy": 4.8018
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "nav-links",
+      "kind": "text",
+      "note": "nav links Work, Skills, Experience, Contact in navy medium sans",
+      "grid": "G0:J0",
+      "coverBox": {
+        "x": 0.6,
+        "y": 0,
+        "w": 0.4,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.7961,
+        "y": 0.0319,
+        "w": 0.0804,
+        "h": 0.0479
+      },
+      "px": {
+        "x": 1070,
+        "y": 24,
+        "w": 108,
+        "h": 36
+      },
+      "aspect": 3,
+      "palette": [
+        {
+          "hex": "#f4f8f8",
+          "coverage": 0.8527
+        },
+        {
+          "hex": "#0c122f",
+          "coverage": 0.0641
+        },
+        {
+          "hex": "#414f6e",
+          "coverage": 0.0356
+        },
+        {
+          "hex": "#8c98ae",
+          "coverage": 0.0261
+        },
+        {
+          "hex": "#0d1144",
+          "coverage": 0.0214
+        }
+      ],
+      "detail": {
+        "energy": 26.9143
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 10,
+          "capHeightPx": 14,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6085,
+          "advTall": 0.4116,
+          "advX": 0.6085,
+          "gap": 0.1074,
+          "xRatio": 0.7325,
+          "stemW": 0.1936,
+          "contrast": 1.1372,
+          "serif": null,
+          "densTall": 0.7158,
+          "densX": 0.638,
+          "weight": 0.7158
+        },
+        "widthClass": "normal",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "huge bold geometric sans headline 'Mohamed Emad' in deep navy",
+      "grid": "A3:E3",
+      "coverBox": {
+        "x": 0,
+        "y": 0.3,
+        "w": 0.5,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0313,
+        "y": 0.3085,
+        "w": 0.2634,
+        "h": 0.0918
+      },
+      "px": {
+        "x": 42,
+        "y": 232,
+        "w": 354,
+        "h": 69
+      },
+      "aspect": 5.1304,
+      "palette": [
+        {
+          "hex": "#f3f7f8",
+          "coverage": 0.6278
+        },
+        {
+          "hex": "#08153b",
+          "coverage": 0.3075
+        },
+        {
+          "hex": "#a8afbf",
+          "coverage": 0.0257
+        },
+        {
+          "hex": "#6d738d",
+          "coverage": 0.0212
+        },
+        {
+          "hex": "#394565",
+          "coverage": 0.0178
+        }
+      ],
+      "detail": {
+        "energy": 58.3551
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 7,
+          "capHeightPx": 55.4,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7045,
+          "advTall": 0.7045,
+          "advX": 0.6955,
+          "gap": 0.1084,
+          "xRatio": 0.7013,
+          "stemW": 0.185,
+          "contrast": 1.2568,
+          "serif": 0.995,
+          "densTall": 0.5395,
+          "densX": 0.5929,
+          "weight": 0.5395
+        },
+        "widthClass": "normal",
+        "weightClass": "medium",
+        "chosen": {
+          "family": "Amaranth",
+          "weight": 400,
+          "fontSizePx": 79,
+          "source": "catalog",
+          "estimatedSize": true,
+          "stamp": "1d29dc8ef1f4"
+        }
+      }
+    },
+    {
+      "id": "accent-rule",
+      "kind": "chrome",
+      "note": "short electric blue underline rule under headline",
+      "grid": "A4:A4",
+      "box": {
+        "x": 0,
+        "y": 0.4,
+        "w": 0.1,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 301,
+        "w": 134,
+        "h": 75
+      },
+      "aspect": 1.7867,
+      "palette": [
+        {
+          "hex": "#f6f7f8",
+          "coverage": 0.9241
+        },
+        {
+          "hex": "#253558",
+          "coverage": 0.0339
+        },
+        {
+          "hex": "#0a5df8",
+          "coverage": 0.0187
+        },
+        {
+          "hex": "#69718f",
+          "coverage": 0.0125
+        },
+        {
+          "hex": "#97a0b0",
+          "coverage": 0.0107
+        }
+      ],
+      "detail": {
+        "energy": 12.2931
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "subhead",
+      "kind": "text",
+      "note": "two-line subhead 'Software Engineer. I build products end to end.' slate navy regular",
+      "grid": "A5:D5",
+      "coverBox": {
+        "x": 0,
+        "y": 0.5,
+        "w": 0.4,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0313,
+        "y": 0.5,
+        "w": 0.2946,
+        "h": 0.0798
+      },
+      "px": {
+        "x": 42,
+        "y": 376,
+        "w": 396,
+        "h": 60
+      },
+      "aspect": 6.6,
+      "palette": [
+        {
+          "hex": "#f5f6f8",
+          "coverage": 0.8192
+        },
+        {
+          "hex": "#253459",
+          "coverage": 0.0856
+        },
+        {
+          "hex": "#8e9aae",
+          "coverage": 0.035
+        },
+        {
+          "hex": "#bac3d0",
+          "coverage": 0.0346
+        },
+        {
+          "hex": "#5c6884",
+          "coverage": 0.0255
+        }
+      ],
+      "detail": {
+        "energy": 57.8229
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 22,
+          "capHeightPx": 24.9,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5619,
+          "advTall": 0.4817,
+          "advX": 0.6021,
+          "gap": 0.1204,
+          "xRatio": 0.699,
+          "stemW": 0.1316,
+          "contrast": 1.1012,
+          "serif": 1.0087,
+          "densTall": 0.4475,
+          "densX": 0.507,
+          "weight": 0.4475
+        },
+        "widthClass": "normal",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "cta-primary",
+      "kind": "control",
+      "note": "solid electric blue button 'View projects' with arrow",
+      "grid": "A6:B6",
+      "coverBox": {
+        "x": 0,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.0268,
+        "y": 0.6077,
+        "w": 0.1518,
+        "h": 0.0918
+      },
+      "px": {
+        "x": 36,
+        "y": 457,
+        "w": 204,
+        "h": 69
+      },
+      "aspect": 2.9565,
+      "palette": [
+        {
+          "hex": "#0958f8",
+          "coverage": 0.7195
+        },
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.2469
+        },
+        {
+          "hex": "#adcdf7",
+          "coverage": 0.0174
+        },
+        {
+          "hex": "#5c9af3",
+          "coverage": 0.011
+        },
+        {
+          "hex": "#82b6f6",
+          "coverage": 0.0052
+        }
+      ],
+      "detail": {
+        "energy": 20.7942
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "cta-secondary",
+      "kind": "control",
+      "note": "outlined navy button 'Download CV' with download icon",
+      "grid": "C6:D6",
+      "coverBox": {
+        "x": 0.2,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.2001,
+        "y": 0.6077,
+        "w": 0.1429,
+        "h": 0.0918
+      },
+      "px": {
+        "x": 269,
+        "y": 457,
+        "w": 192,
+        "h": 69
+      },
+      "aspect": 2.7826,
+      "palette": [
+        {
+          "hex": "#f4f6f7",
+          "coverage": 0.8966
+        },
+        {
+          "hex": "#081035",
+          "coverage": 0.06
+        },
+        {
+          "hex": "#2c385b",
+          "coverage": 0.0241
+        },
+        {
+          "hex": "#848ea4",
+          "coverage": 0.0103
+        },
+        {
+          "hex": "#b2bccd",
+          "coverage": 0.009
+        }
+      ],
+      "detail": {
+        "energy": 33.0195
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "dot-field",
+      "kind": "chrome",
+      "note": "faint CSS radial-gradient dot pattern at lower left",
+      "grid": "A7:B8",
+      "codeDrawn": true,
+      "box": {
+        "x": 0,
+        "y": 0.7,
+        "w": 0.2,
+        "h": 0.2
+      },
+      "px": {
+        "x": 0,
+        "y": 526,
+        "w": 269,
+        "h": 150
+      },
+      "aspect": 1.7933,
+      "palette": [
+        {
+          "hex": "#f6f8f8",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 2.0785
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "tech-icons",
+      "kind": "chrome",
+      "note": "row of outline tech logo icons: JS, React, Node, Laravel, PostgreSQL, Flutter, Socket",
+      "grid": "A9:D9",
+      "box": {
+        "x": 0,
+        "y": 0.9,
+        "w": 0.4,
+        "h": 0.1
+      },
+      "px": {
+        "x": 0,
+        "y": 677,
+        "w": 538,
+        "h": 75
+      },
+      "aspect": 7.1733,
+      "palette": [
+        {
+          "hex": "#f4f7f8",
+          "coverage": 0.9469
+        },
+        {
+          "hex": "#0f1231",
+          "coverage": 0.019
+        },
+        {
+          "hex": "#344f76",
+          "coverage": 0.0127
+        },
+        {
+          "hex": "#b4bed0",
+          "coverage": 0.0115
+        },
+        {
+          "hex": "#6b768f",
+          "coverage": 0.0099
+        }
+      ],
+      "detail": {
+        "energy": 27.0922
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "stack-plate",
+      "kind": "plate",
+      "note": "exploded isometric stack of four translucent glass layers: database cylinder with elephant on top layer, JS and Laravel blocks on green API layer, dashboard UI on third layer, phone on bottom violet layer, dashed vertical guides and leader lines",
+      "grid": "F1:I9",
+      "bleed": true,
+      "box": {
+        "x": 0.5,
+        "y": 0.1,
+        "w": 0.4,
+        "h": 0.9
+      },
+      "px": {
+        "x": 672,
+        "y": 75,
+        "w": 538,
+        "h": 677
+      },
+      "aspect": 0.7947,
+      "palette": [
+        {
+          "hex": "#edf4f6",
+          "coverage": 0.865
+        },
+        {
+          "hex": "#cdd4f6",
+          "coverage": 0.1177
+        },
+        {
+          "hex": "#a4b2ec",
+          "coverage": 0.007
+        },
+        {
+          "hex": "#345989",
+          "coverage": 0.006
+        },
+        {
+          "hex": "#bdd7ca",
+          "coverage": 0.0043
+        }
+      ],
+      "detail": {
+        "energy": 23.2707
+      },
+      "medium": "raster",
+      "plate": "public/plates/stack-plate.jpg",
+      "text": null
+    },
+    {
+      "id": "label-db",
+      "kind": "text",
+      "note": "label 'PostgreSQL + PostGIS' with dot",
+      "grid": "I2:J2",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.2,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.7999,
+        "y": 0.1995,
+        "w": 0.1786,
+        "h": 0.0997
+      },
+      "px": {
+        "x": 1075,
+        "y": 150,
+        "w": 240,
+        "h": 75
+      },
+      "aspect": 3.2,
+      "palette": [
+        {
+          "hex": "#f4f7f8",
+          "coverage": 0.9297
+        },
+        {
+          "hex": "#c8d8ef",
+          "coverage": 0.0266
+        },
+        {
+          "hex": "#2a3855",
+          "coverage": 0.0172
+        },
+        {
+          "hex": "#5a688e",
+          "coverage": 0.0135
+        },
+        {
+          "hex": "#778598",
+          "coverage": 0.013
+        }
+      ],
+      "detail": {
+        "energy": 24.3088
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 26.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.32,
+          "advTall": null,
+          "advX": 0.3388,
+          "gap": 0.0565,
+          "xRatio": 0.4542,
+          "stemW": 0.0853,
+          "contrast": 1.1543,
+          "serif": 1.2903,
+          "densTall": null,
+          "densX": 0.4979,
+          "weight": 0.4979
+        },
+        "widthClass": "compressed",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "label-api",
+      "kind": "text",
+      "note": "label 'Node.js / Laravel API' with dot",
+      "grid": "I4:J4",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.4,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.7999,
+        "y": 0.4003,
+        "w": 0.1786,
+        "h": 0.0997
+      },
+      "px": {
+        "x": 1075,
+        "y": 301,
+        "w": 240,
+        "h": 75
+      },
+      "aspect": 3.2,
+      "palette": [
+        {
+          "hex": "#f5f7f7",
+          "coverage": 0.9408
+        },
+        {
+          "hex": "#0d1438",
+          "coverage": 0.0175
+        },
+        {
+          "hex": "#535f7c",
+          "coverage": 0.017
+        },
+        {
+          "hex": "#c8d1db",
+          "coverage": 0.0149
+        },
+        {
+          "hex": "#a5adc0",
+          "coverage": 0.0098
+        }
+      ],
+      "detail": {
+        "energy": 21.9433
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 19,
+          "capHeightPx": 12.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5937,
+          "advTall": 0.6333,
+          "advX": 0.5937,
+          "gap": 0.0792,
+          "xRatio": 0.6793,
+          "stemW": 0.2005,
+          "contrast": 1.3882,
+          "serif": 0.9382,
+          "densTall": 0.5664,
+          "densX": 0.6766,
+          "weight": 0.5664
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "label-dash",
+      "kind": "text",
+      "note": "label 'React dashboard' with dot",
+      "grid": "I6:J6",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.7999,
+        "y": 0.5997,
+        "w": 0.1607,
+        "h": 0.0997
+      },
+      "px": {
+        "x": 1075,
+        "y": 451,
+        "w": 216,
+        "h": 75
+      },
+      "aspect": 2.88,
+      "palette": [
+        {
+          "hex": "#f5f7f8",
+          "coverage": 0.9355
+        },
+        {
+          "hex": "#c8d6ed",
+          "coverage": 0.0274
+        },
+        {
+          "hex": "#080923",
+          "coverage": 0.0137
+        },
+        {
+          "hex": "#212d4e",
+          "coverage": 0.012
+        },
+        {
+          "hex": "#929eb2",
+          "coverage": 0.0114
+        }
+      ],
+      "detail": {
+        "energy": 20.6725
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 16,
+          "capHeightPx": 13.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.5824,
+          "advTall": 0.6012,
+          "advX": 0.5636,
+          "gap": 0.0752,
+          "xRatio": 0.6975,
+          "stemW": 0.1936,
+          "contrast": 1.2803,
+          "serif": 0.9615,
+          "densTall": 0.5708,
+          "densX": 0.6504,
+          "weight": 0.5708
+        },
+        "widthClass": "condensed",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "label-mobile",
+      "kind": "text",
+      "note": "label 'Flutter app' with dot",
+      "grid": "I8:J8",
+      "coverBox": {
+        "x": 0.8,
+        "y": 0.8,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.7999,
+        "y": 0.8005,
+        "w": 0.1295,
+        "h": 0.0479
+      },
+      "px": {
+        "x": 1075,
+        "y": 602,
+        "w": 174,
+        "h": 36
+      },
+      "aspect": 4.8333,
+      "palette": [
+        {
+          "hex": "#f5f8f8",
+          "coverage": 0.8443
+        },
+        {
+          "hex": "#d3d6f3",
+          "coverage": 0.0853
+        },
+        {
+          "hex": "#090b35",
+          "coverage": 0.0374
+        },
+        {
+          "hex": "#182747",
+          "coverage": 0.018
+        },
+        {
+          "hex": "#8088a3",
+          "coverage": 0.015
+        }
+      ],
+      "detail": {
+        "energy": 28.7488
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 8.7,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": null,
+          "advTall": null,
+          "advX": null,
+          "gap": 0.1573,
+          "xRatio": null,
+          "stemW": 0.2669,
+          "contrast": 1.681,
+          "serif": null,
+          "densTall": null,
+          "densX": null,
+          "weight": null
+        },
+        "widthClass": "normal",
+        "weightClass": "black"
+      }
+    },
+    {
+      "id": "tag-jwt",
+      "kind": "text",
+      "note": "small left label 'JWT · RBAC'",
+      "grid": "E4:F4",
+      "coverBox": {
+        "x": 0.4,
+        "y": 0.4,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.4449,
+        "y": 0.4003,
+        "w": 0.1555,
+        "h": 0.0997
+      },
+      "px": {
+        "x": 598,
+        "y": 301,
+        "w": 209,
+        "h": 75
+      },
+      "aspect": 2.7867,
+      "palette": [
+        {
+          "hex": "#eff5f2",
+          "coverage": 0.9357
+        },
+        {
+          "hex": "#09351e",
+          "coverage": 0.0195
+        },
+        {
+          "hex": "#9aaeac",
+          "coverage": 0.0195
+        },
+        {
+          "hex": "#3a5c4c",
+          "coverage": 0.0147
+        },
+        {
+          "hex": "#17254a",
+          "coverage": 0.0106
+        }
+      ],
+      "detail": {
+        "energy": 25.7505
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 15,
+          "capHeightPx": 22,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.3905,
+          "advTall": 0.4122,
+          "advX": null,
+          "gap": 0.1077,
+          "xRatio": 0.4261,
+          "stemW": 0.1066,
+          "contrast": 1.1983,
+          "serif": 0.9687,
+          "densTall": 0.4271,
+          "densX": null,
+          "weight": 0.4271
+        },
+        "widthClass": "compressed",
+        "weightClass": "regular"
+      }
+    },
+    {
+      "id": "tag-socket",
+      "kind": "text",
+      "note": "small left label 'Socket.IO'",
+      "grid": "E6:F6",
+      "coverBox": {
+        "x": 0.4,
+        "y": 0.6,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.4449,
+        "y": 0.5997,
+        "w": 0.1555,
+        "h": 0.0997
+      },
+      "px": {
+        "x": 598,
+        "y": 451,
+        "w": 209,
+        "h": 75
+      },
+      "aspect": 2.7867,
+      "palette": [
+        {
+          "hex": "#f1f4f8",
+          "coverage": 0.8266
+        },
+        {
+          "hex": "#c8d9f6",
+          "coverage": 0.1371
+        },
+        {
+          "hex": "#96aee2",
+          "coverage": 0.0193
+        },
+        {
+          "hex": "#1a2748",
+          "coverage": 0.0088
+        },
+        {
+          "hex": "#687db0",
+          "coverage": 0.0082
+        }
+      ],
+      "detail": {
+        "energy": 19.3736
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": null,
+        "measuredAt": "2026-11-20T08:27:27.234Z",
+        "note": "no separable lettering in the crop; size by the region box"
+      }
+    },
+    {
+      "id": "tag-play",
+      "kind": "text",
+      "note": "small left label 'Google Play'",
+      "grid": "E8:F8",
+      "coverBox": {
+        "x": 0.4,
+        "y": 0.8,
+        "w": 0.2,
+        "h": 0.1
+      },
+      "box": {
+        "x": 0.4449,
+        "y": 0.8005,
+        "w": 0.1555,
+        "h": 0.0997
+      },
+      "px": {
+        "x": 598,
+        "y": 602,
+        "w": 209,
+        "h": 75
+      },
+      "aspect": 2.7867,
+      "palette": [
+        {
+          "hex": "#f4f7f8",
+          "coverage": 0.746
+        },
+        {
+          "hex": "#d4d6f7",
+          "coverage": 0.2079
+        },
+        {
+          "hex": "#a5a9e4",
+          "coverage": 0.0174
+        },
+        {
+          "hex": "#7c85a7",
+          "coverage": 0.0156
+        },
+        {
+          "hex": "#6f74bf",
+          "coverage": 0.0132
+        }
+      ],
+      "detail": {
+        "energy": 22.6778
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 4,
+          "capHeightPx": 22.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6601,
+          "advTall": null,
+          "advX": null,
+          "gap": 0.308,
+          "xRatio": 0.3482,
+          "stemW": 0.1005,
+          "contrast": 1.1379,
+          "serif": null,
+          "densTall": null,
+          "densX": null,
+          "weight": null
+        },
+        "widthClass": "normal",
+        "weightClass": "light"
+      }
+    }
+  ]
+}

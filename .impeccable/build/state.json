@@ -1,0 +1,419 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-11-20T08:20:32.587Z",
+  "comp": ".impeccable/mocks/comp-a.png",
+  "direction": "934895ef",
+  "breakpoint": "1344x752",
+  "artifact": null,
+  "phase": "hero",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-11-20T08:20:32.580Z",
+      "closedAt": "2026-11-20T08:26:07.694Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/comp-a.png",
+        "at": "2026-11-20T08:26:07.693Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-11-20T08:26:07.730Z",
+      "closedAt": "2026-11-20T08:27:27.395Z",
+      "attempts": 2,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "17 regions, 1 plates, 10 text regions measured",
+        "at": "2026-11-20T08:27:27.394Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-11-20T08:27:27.395Z",
+      "closedAt": "2026-11-20T08:32:48.187Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "1/1 plates",
+        "at": "2026-11-20T08:32:48.186Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "open",
+      "openedAt": "2026-11-20T08:32:48.187Z",
+      "closedAt": null,
+      "attempts": 14,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "region dot-field is missing (detail 5%, structure 98%): the comp shows material the build does not",
+          "region label-db is missing (detail 0%, structure 75%): the comp shows material the build does not",
+          "region label-api is missing (detail 0%, structure 72%): the comp shows material the build does not",
+          "region label-dash is missing (detail 0%, structure 58%): the comp shows material the build does not",
+          "region label-mobile is missing (detail 0%, structure 43%): the comp shows material the build does not",
+          "region tag-jwt is missing (detail 9%, structure 63%): the comp shows material the build does not",
+          "region tag-socket is missing (detail 7%, structure 66%): the comp shows material the build does not"
+        ],
+        "summary": "hero 76% (drift)",
+        "score": 0.7619,
+        "verdict": "drift",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": ".impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "label-mobile missing 44%",
+          "label-dash missing 52%",
+          "tag-play drift 54%"
+        ],
+        "worstIds": [
+          "label-mobile",
+          "label-dash",
+          "tag-play"
+        ],
+        "worstCrops": [
+          {
+            "id": "label-mobile",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.4428,
+              "structure": 0.4296,
+              "color": 0.9121,
+              "colorIntersection": 0.8381,
+              "paletteMatch": 0.9519,
+              "detail": 0,
+              "detailRaw": 0.0621,
+              "detailAdded": 0.3021,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/label-mobile.png"
+          },
+          {
+            "id": "label-dash",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.5206,
+              "structure": 0.5787,
+              "color": 0.925,
+              "colorIntersection": 0.8426,
+              "paletteMatch": 0.9693,
+              "detail": 0,
+              "detailRaw": 0.0438,
+              "detailAdded": 0.25,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/label-dash.png"
+          },
+          {
+            "id": "tag-play",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.542,
+              "structure": 0.6092,
+              "color": 0.8893,
+              "colorIntersection": 0.795,
+              "paletteMatch": 0.94,
+              "detail": 0.1008,
+              "detailRaw": 0.1789,
+              "detailAdded": 0.1563,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/tag-play.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 3 readings:",
+          "  text label-db: cap height 6.7px in the build, 26.6px in the comp (-75%); set font-size so the cap height renders at 26.6px",
+          "  text label-dash: cap height 24.4px in the build, 13.3px in the comp (+83%); set font-size so the cap height renders at 13.3px",
+          "  text tag-play: ink is #2f3f60 in the build, #a5a9e4 in the comp; use the comp's colour"
+        ],
+        "regionVerdicts": {
+          "nav-mark": "drift",
+          "nav-links": "drift",
+          "headline": "drift",
+          "accent-rule": "match",
+          "subhead": "drift",
+          "cta-primary": "match",
+          "cta-secondary": "drift",
+          "dot-field": "missing",
+          "tech-icons": "drift",
+          "stack-plate": "drift",
+          "label-db": "missing",
+          "label-api": "missing",
+          "label-dash": "missing",
+          "label-mobile": "missing",
+          "tag-jwt": "missing",
+          "tag-socket": "missing",
+          "tag-play": "drift"
+        },
+        "at": "2026-11-20T09:27:23.669Z"
+      },
+      "forced": null,
+      "readingsSeen": {
+        "text label-api: cap height 28.8px in the build, 12.6px in the comp (+129%); set font-size so the cap height renders at 12.6px": 1,
+        "text label-dash: letter-spacing is wider than the comp's (gap 0.134 vs 0.075 of the cap height); set letter-spacing to close it by about 1px": 1,
+        "text label-mobile: ink is #6a7989 in the build, #090b35 in the comp; use the comp's colour": 1,
+        "text tag-play: ink is #6a7793 in the build, #a5a9e4 in the comp; use the comp's colour": 1,
+        "control cta-primary: its rule sits 5px into the box in the comp and 14px in the build (+9px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text nav-links: cap height 3.1px in the build, 14px in the comp (-78%); set font-size so the cap height renders at 14px": 2,
+        "text label-db: cap height 11.1px in the build, 26.6px in the comp (-58%); set font-size so the cap height renders at 26.6px": 1,
+        "text nav-links: its first line starts 21px lower than in the comp (30px vs 9px into the region box); the spacing above it is too large": 2,
+        "text label-db: its first line starts 17px lower than in the comp (26px vs 9px into the region box); the spacing above it is too large": 1,
+        "control cta-primary: its rule sits 5px into the box in the comp and 57px in the build (+52px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "chrome tech-icons: its ink is 7px tall in the build and 34px in the comp (-27px); match the height, not only the position": 1,
+        "text label-db: cap height 11.5px in the build, 26.6px in the comp (-57%); set font-size so the cap height renders at 26.6px": 2,
+        "text tag-jwt: cap height 11.2px in the build, 22px in the comp (-49%); set font-size so the cap height renders at 22px": 2,
+        "text tag-jwt: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text label-db: ink is #717f90 in the build, #2a3855 in the comp; use the comp's colour": 2,
+        "text tag-jwt: ink is #a3c1b2 in the build, #09351e in the comp; use the comp's colour": 2,
+        "control cta-primary: its rule sits 5px into the box in the comp and 33px in the build (+28px), so the strip is taller than the comp's; match the height, not only the position": 2,
+        "text label-mobile: ink is #d7d7f7 in the build, #090b35 in the comp; use the comp's colour": 1,
+        "text tag-play: ink is #2b3b5b in the build, #a5a9e4 in the comp; use the comp's colour": 1,
+        "text label-db: its first line starts 39px lower than in the comp (48px vs 9px into the region box); the spacing above it is too large": 1,
+        "control cta-primary: its rule sits 5px into the box in the comp and 25px in the build (+20px), so the strip is taller than the comp's; match the height, not only the position": 1,
+        "text label-db: cap height 11.8px in the build, 26.6px in the comp (-56%); set font-size so the cap height renders at 26.6px": 5,
+        "text subhead: its first line starts 32px lower than in the comp (32px vs 0px into the region box); the spacing above it is too large": 2,
+        "text label-db: its first line starts 13px lower than in the comp (22px vs 9px into the region box); the spacing above it is too large": 5,
+        "control cta-primary: its rule sits 5px into the box in the comp and 16px in the build (+11px), so the strip is taller than the comp's; match the height, not only the position": 2,
+        "text label-api: letter-spacing is wider than the comp's (gap 0.126 vs 0.079 of the cap height); set letter-spacing to close it by about 1px": 3,
+        "text subhead: its first line starts 29px lower than in the comp (29px vs 0px into the region box); the spacing above it is too large": 2,
+        "control cta-primary: its rule sits 5px into the box in the comp and 13px in the build (+8px), so the strip is taller than the comp's; match the height, not only the position": 2,
+        "text label-db: cap height 6.7px in the build, 26.6px in the comp (-75%); set font-size so the cap height renders at 26.6px": 2,
+        "text label-dash: cap height 24.4px in the build, 13.3px in the comp (+83%); set font-size so the cap height renders at 13.3px": 2,
+        "text tag-play: ink is #2f3f60 in the build, #a5a9e4 in the comp; use the comp's colour": 2
+      },
+      "history": [
+        {
+          "at": "2026-11-20T09:19:46.450Z",
+          "score": 0.7249,
+          "worstIds": [
+            "cta-primary",
+            "dot-field",
+            "subhead"
+          ],
+          "regionVerdicts": {
+            "nav-mark": "drift",
+            "nav-links": "drift",
+            "headline": "drift",
+            "accent-rule": "missing",
+            "subhead": "contradicted",
+            "cta-primary": "missing",
+            "cta-secondary": "drift",
+            "dot-field": "missing",
+            "tech-icons": "drift",
+            "stack-plate": "drift",
+            "label-db": "match",
+            "label-api": "drift",
+            "label-dash": "missing",
+            "label-mobile": "missing",
+            "tag-jwt": "drift",
+            "tag-socket": "missing",
+            "tag-play": "missing"
+          },
+          "artifactHash": "58aa89619d30"
+        },
+        {
+          "at": "2026-11-20T09:20:17.282Z",
+          "score": 0.7615,
+          "worstIds": [
+            "cta-primary",
+            "dot-field",
+            "accent-rule"
+          ],
+          "regionVerdicts": {
+            "nav-mark": "drift",
+            "nav-links": "drift",
+            "headline": "drift",
+            "accent-rule": "missing",
+            "subhead": "drift",
+            "cta-primary": "missing",
+            "cta-secondary": "drift",
+            "dot-field": "missing",
+            "tech-icons": "drift",
+            "stack-plate": "drift",
+            "label-db": "match",
+            "label-api": "drift",
+            "label-dash": "missing",
+            "label-mobile": "missing",
+            "tag-jwt": "drift",
+            "tag-socket": "missing",
+            "tag-play": "missing"
+          },
+          "artifactHash": "58aa89619d30"
+        },
+        {
+          "at": "2026-11-20T09:20:22.981Z",
+          "score": 0.7615,
+          "worstIds": [
+            "cta-primary",
+            "dot-field",
+            "accent-rule"
+          ],
+          "regionVerdicts": {
+            "nav-mark": "drift",
+            "nav-links": "drift",
+            "headline": "drift",
+            "accent-rule": "missing",
+            "subhead": "drift",
+            "cta-primary": "missing",
+            "cta-secondary": "drift",
+            "dot-field": "missing",
+            "tech-icons": "drift",
+            "stack-plate": "drift",
+            "label-db": "match",
+            "label-api": "drift",
+            "label-dash": "missing",
+            "label-mobile": "missing",
+            "tag-jwt": "drift",
+            "tag-socket": "missing",
+            "tag-play": "missing"
+          },
+          "artifactHash": "58aa89619d30"
+        },
+        {
+          "at": "2026-11-20T09:26:45.659Z",
+          "score": 0.8088,
+          "worstIds": [
+            "tag-socket",
+            "tag-jwt",
+            "tag-play"
+          ],
+          "regionVerdicts": {
+            "nav-mark": "drift",
+            "nav-links": "drift",
+            "headline": "drift",
+            "accent-rule": "match",
+            "subhead": "drift",
+            "cta-primary": "match",
+            "cta-secondary": "drift",
+            "dot-field": "missing",
+            "tech-icons": "drift",
+            "stack-plate": "drift",
+            "label-db": "match",
+            "label-api": "drift",
+            "label-dash": "missing",
+            "label-mobile": "missing",
+            "tag-jwt": "drift",
+            "tag-socket": "missing",
+            "tag-play": "missing"
+          },
+          "artifactHash": "58aa89619d30"
+        },
+        {
+          "at": "2026-11-20T09:27:13.786Z",
+          "score": 0.7619,
+          "worstIds": [
+            "label-mobile",
+            "label-dash",
+            "tag-play"
+          ],
+          "regionVerdicts": {
+            "nav-mark": "drift",
+            "nav-links": "drift",
+            "headline": "drift",
+            "accent-rule": "match",
+            "subhead": "drift",
+            "cta-primary": "match",
+            "cta-secondary": "drift",
+            "dot-field": "missing",
+            "tech-icons": "drift",
+            "stack-plate": "drift",
+            "label-db": "missing",
+            "label-api": "missing",
+            "label-dash": "missing",
+            "label-mobile": "missing",
+            "tag-jwt": "missing",
+            "tag-socket": "missing",
+            "tag-play": "drift"
+          },
+          "artifactHash": "58aa89619d30"
+        },
+        {
+          "at": "2026-11-20T09:27:23.669Z",
+          "score": 0.7619,
+          "worstIds": [
+            "label-mobile",
+            "label-dash",
+            "tag-play"
+          ],
+          "regionVerdicts": {
+            "nav-mark": "drift",
+            "nav-links": "drift",
+            "headline": "drift",
+            "accent-rule": "match",
+            "subhead": "drift",
+            "cta-primary": "match",
+            "cta-secondary": "drift",
+            "dot-field": "missing",
+            "tech-icons": "drift",
+            "stack-plate": "drift",
+            "label-db": "missing",
+            "label-api": "missing",
+            "label-dash": "missing",
+            "label-mobile": "missing",
+            "tag-jwt": "missing",
+            "tag-socket": "missing",
+            "tag-play": "drift"
+          },
+          "artifactHash": "58aa89619d30"
+        }
+      ]
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "plates": {
+    "stack-plate": {
+      "status": "ok",
+      "score": 0.6682,
+      "size": "1792x2240"
+    }
+  }
+}

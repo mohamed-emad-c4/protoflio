@@ -1,0 +1,7 @@
+{
+  "prompt": "Desktop website UI design mockup at 1440x900, flat screen render, no device frame, same visual world as the reference image: light cool-grey ground, deep navy ink, one electric blue accent, translucent isometric layers with thin leader lines, clean geometric sans. This frame shows the 'Selected work' section of the portfolio, scrolled past the hero. Section heading left: '01 — Selected work' and 'What I built on each product'. Then one large project row: left half a project card titled 'TaxiMatch' with subtitle 'Taxi dispatch and driver matching', a badge 'Live on Google Play', a bullet list 'Flutter app for drivers and operators', 'React admin dashboard', 'Node.js + TypeScript backend, PostGIS geospatial matching', 'Live tracking with Socket.IO', 'Firebase push, Mapbox, GoCardless payments'; right half a compact isometric 4-layer stack diagram (Database, API, Dashboard, Mobile) with all four layers glowing blue to show he built every layer. Below it the start of a second row 'Web Creator — Multi-tenant website and e-commerce SaaS' with its stack where only 'Backend · Laravel' and 'Database' layers are lit and the others pale. Thin top nav visible. Legible crisp text.",
+  "model": "gpt_image_2",
+  "reference": "decision/stack.png",
+  "role": "projects section",
+  "approvedAsSectionReference": true
+}
